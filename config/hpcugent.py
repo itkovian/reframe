@@ -12,8 +12,8 @@ class ReframeSettings:
     site_configuration = {
         'systems': {
             'victini    ': {
-                'descr': 'victini',
-                'hostnames': ['node320[1-9]', 'node32[1-8][0-9]', 'node329[0-6'],
+                'descr': 'HPCUGent victini',
+                'hostnames': ['node320[1-9]', 'node32[1-8][0-9]', 'node329[0-6]'],
                 'modules_system': 'lmod',
                 'partitions': {
                     'victini': {
@@ -28,7 +28,7 @@ class ReframeSettings:
             },
             'skitty': {
                 'descr': 'HPCUGent skitty',
-                'hostnames': ['node310[1-9]','node31[1-6][0-9]', 'node317[0-2])'],
+                'hostnames': ['node310[1-9]', 'node31[1-6][0-9]', 'node317[0-2]'],
                 'modules_system': 'lmod',
                 'partitions': {
                     'skitty': {
