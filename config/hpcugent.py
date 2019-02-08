@@ -54,7 +54,7 @@ class ReframeSettings:
                 },
             }
         },
-    },
+    }
 
     logging_config = {
         'level': 'DEBUG',
